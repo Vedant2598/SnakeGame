@@ -16,7 +16,7 @@ export default function Game() {
     //GAME SETTINGS
     const [pause, setpause] = useState(false)
     const [gameOver, setgameOver] = useState(false)
-    const [gameTime, setgameTime] = useState(40)
+    const [gameTime, setgameTime] = useState(50)
     
     //FOOD SETTINGS
     const [foodQuantity, setfoodQuantity] = useState(0)

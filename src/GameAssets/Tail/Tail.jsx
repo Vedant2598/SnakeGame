@@ -27,9 +27,9 @@ export default function Tail(props) {
 
                 let top_=String(tailRef.current.style.top).replace("cm",'')
                 let left_=String(tailRef.current.style.left).replace("cm",'')
-                
-
+              
                 if(parseInt(top_)===props.top && parseInt(left_)===props.left && props.index>5){
+                    console.log(parseInt(top_),parseInt(left_), "New",props.top,props.left, 'index : ',props.index)
                     props.setTogameOver()
                 }
                 // props.setTogameOver(top_,left_,props.index)

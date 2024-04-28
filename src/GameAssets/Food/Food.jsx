@@ -1,5 +1,6 @@
 import React, { useEffect,useState } from 'react'
 import "./Food.css"
+import foodImage from "./food.png"
 
 export default function Food(props) {
 
@@ -35,7 +36,9 @@ export default function Food(props) {
   return (
     <>
       {!gotEaten&&
-        <div className='food-material bg-red-500' style={{top:`${props.location[0]}cm`,left:`${props.location[1]}cm`}}></div>
+        <div className='food-material bg-red-500' style={{top:`${props.location[0]}cm`,left:`${props.location[1]}cm`}}>
+          <img src={foodImage} style={{width:"100%",height:"100%"}}/>
+        </div>
       }
     </>
   )
