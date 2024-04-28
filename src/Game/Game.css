@@ -1,0 +1,20 @@
+.map-level-0{
+    position: relative;
+    border: 0.5mm solid rgb(70, 80, 107);
+    width: 16cm;
+    height: 16cm;
+    overflow: hidden;
+}
+
+.game-over-screen{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(36, 37, 37, 0.564);
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    padding-top: 3cm;
+    align-items: center;
+    
+}

@@ -1,0 +1,10 @@
+.snake-body{
+    position: absolute;
+    width: 1cm;
+    height: 1cm;
+    z-index: 2;
+}
+
+.snake-body img{
+    z-index: 2;
+}
